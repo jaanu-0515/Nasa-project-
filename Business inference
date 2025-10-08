@@ -1,0 +1,13 @@
+# The Remaining Useful Life (RUL) model predicts how long each engine or component will continue to operate before failure.
+# This helps maintenance planners and decision-makers to take proactive action rather than waiting for breakdowns.
+
+# | Engine | Cycle | Predicted RUL (cycles) | Interpretation                                   |
+# | -----  | ----  | ---------------------  | -----------------------------------------------  |
+# | 1      | 1     | 191                    | New engine — plenty of useful life remaining     |
+# | 1      | 50    | 141                    | Engine running well — still healthy              |
+# | 1      | 100   | 91                     | Engine starting to age — monitor closely         |
+# | 1      | 150   | 41                     | Nearing failure — schedule maintenance soon      |
+# | 1      | 200   | 0                      | Engine failed — maintenance required immediately |
+
+# This allows decision-makers to plan maintenance proactively, optimize spare part inventory, and prevent unexpected downtime.
+# As a result, the business can reduce maintenance costs, improve operational efficiency, and enhance equipment reliability.
